@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgba(137, 133, 127, 0.191);
+}
+
+h3, button, h4, p{
+  font-family: 'Kanit', sans-serif !important;
+}
+
+.root {
+  flex-grow: 1;
+  margin: 0 200px;
+  padding: 80px;
+}
+
+.leftBlock {
+  background-color: #0A285F;
+  padding: 20px;
+}
+
+.rightBlock {
+  background-color: #FFCC00;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  margin-bottom: 20px;
+}
